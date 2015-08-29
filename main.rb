@@ -45,7 +45,7 @@ end
 
 set_player_marker
 
-puts "Player 1 #{@player1}, please choose square 0 thru 8 for your first move."
+puts "Player1, who is #{@player1}, please choose square 0 thru 8 for your first move."
 square = gets.chomp.to_i
 puts " Player1 has choosen #{square}."
 
