@@ -1,6 +1,6 @@
 def new_board(lines)
 
-
+puts lines
 
   puts """
 
@@ -14,4 +14,5 @@ def new_board(lines)
  7 | 8 | 9
  """
 end 
- new_board("This is the new board")
+ new_board("Welcome to Tic Tac Toe")
+ new_board("The current board is")
