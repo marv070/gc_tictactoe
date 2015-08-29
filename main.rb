@@ -16,14 +16,13 @@ puts lines
  """
 end 
 board_position_array = ["0", "1", "2", "3", "4", "5", "6", "7", "8"]
-new_board("board_position", board_position_array)
+board_empty = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
-
-
-# new_board("Welcome to Tic Tac Toe")
-# new_board("The current board is")
+ new_board("Welcome to Tic Tac Toe", board_position_array)
+ new_board("The current board is", board_empty )
  
+
 def define_marker
  puts "Player 1 do you want x or o"
  player1 = gets.chomp.upcase
